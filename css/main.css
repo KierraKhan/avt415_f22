@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {margin: 0; 
+	padding: 50px; 
+	line-height: 1.75;
+	font-family: 'Tw Cen MT', 'Tw Cen MT Condensed', 'Tw Cen MT Condensed Extra Bold';}
+
+h1 {font-size: 3em;}
+
+h2{font-size: 1.5em; color: #FFB562;}
+
+h3 {color: #92a8d1;}
+
+h4 {font-size: 1.5em;
+	margin-top: 0; color:#92a8d1;}
+
+hr.solid {border-top: 4px solid #92a8d1;}
+
+a:link {color:#F87474;text-decoration:none;}
+		
+a:hover {color:#F87474;text-decoration:underline;}
+	
+a:visited {color:#F87474;}
+
+.column {column-count: 2; 
+		column-gap: 40px;
+  		column-rule-style: solid; 
+		column-rule-width: 1px;}
+
+.exercise {width: 50%; 
+	float: left; 
+	margin-right: 0px; 
+	column-count: 1;
+	column-rule-style: solid;}
+
+.project1 {width: 35%; 
+	float: left; 
+	margin-right: 0px; 
+	column-count: 1;
+	column-rule-style: solid;}
+
+.project3 {width: 35%; 
+	float: right; 
+	margin-right: 0px; 
+	column-count: 1;
+	column-rule-style: solid; 
+	margin-bottom: 50px;
+	display: block;}
