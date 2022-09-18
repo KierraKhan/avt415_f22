@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:'Tw Cen MT', 'Tw Cen MT Condensed', 'Tw Cen MT Condensed Extra Bold';}
+		
+.p {text-align: left; 
+	border:medium solid #F87474;
+	border-radius: 25px;
+	margin: 20px;
+	padding: 20px;}
